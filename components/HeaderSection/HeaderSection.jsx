@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 export default function HeaderSection() {
   return (
     <header className="h-screen static">
-      <div className="h-full w-full bg-center bg-cover filter grayscale bg-header-image absolute z-10 top-0"></div>
+      <div className="h-full w-full bg-center bg-cover filter grayscale bg-header-image bg-fixed absolute z-10 top-0"></div>
       <div className="h-full w-full bg-black opacity-75 absolute z-10 top-0"></div>
       <div className="h-full w-full flex flex-col justify-end items-center relative z-30 pb-44">
         <div className="font-mono text-gray-300 text-4xl">
