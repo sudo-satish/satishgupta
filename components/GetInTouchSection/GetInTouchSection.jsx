@@ -27,7 +27,7 @@ const LocationMarker = () => (
 
 export default function GetInTouchSection() {
   return (
-    <section className="flex flex-col py-12 p-5 justify-center items-center">
+    <section className="flex flex-col py-12 p-5 justify-center items-center" data-scroll-index="3" id="get-in-touch-section">
 
       <div className="flex flex-col md:w-1/3 md:min-h-full  justify-items-start items-center my-5">
         <PhoneIcon />

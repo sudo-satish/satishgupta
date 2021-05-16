@@ -20,7 +20,7 @@ const SkillsIcon = () => (
 
 export default function SkillSection() {
   return (
-    <section className="bg-gray-600 py-12">
+    <section className="bg-gray-600 py-12" data-scroll-index="2" id="skill-section">
       <div className="flex flex-col md:flex-row justify-center md:items-start">
         <div className="flex flex-col md:w-1/3 md:min-h-full  justify-items-start items-center my-5">
           <EducationIcon />
@@ -28,7 +28,7 @@ export default function SkillSection() {
           <div className="m-4 border w-1/3 border-blue-400"></div>
           <h2 className="text-lg font-extrabold tracking-wider text-gray-400"> Bachelor of Technology</h2>
           <h3 className="text-lg font-bold tracking-wider text-gray-400"> 2017</h3>
-          <h3 className="text-lg font-bold tracking-wider text-gray-400 font-mono"> Computer Science and Engineering</h3>
+          <h3 className="md:text-lg font-bold tracking-wider text-gray-400 font-mono">Computer Science and Engineering</h3>
           <h3 className="tracking-wider text-gray-400 font-mono"> From</h3>
           <h1 className="tracking-wider text-gray-400 font-mono">Maharishi Dayanand University</h1>
         </div>
