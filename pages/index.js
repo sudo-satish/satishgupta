@@ -11,9 +11,9 @@ export default function Home() {
       <Head>
         <title>Satish Gupta</title>
         <meta name="description" content="Satish Gupta, Highly skilled developer with experience of more than 4.5 years."></meta>
-        <meta property="og:title" content="Satish Gupta's portfolio" />
+        <meta property="og:title" content="Satish Gupta" />
         <meta property="og:url" content="https://satishgupta.dev/" />
-        <meta property="og:description" content="Satish Gupta, Highly skilled developer with experience of more than 4.5 years." />
+        <meta property="og:description" content="Highly skilled developer with experience of more than 4.5 years." />
         <meta property="og:image" content="https://satishgupta.dev/img/profile-image-reduced-quality.jpg" />
         <meta property="og:type" content="profile" />
         <meta property="og:profile:first_name" content="Satish" />
