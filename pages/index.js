@@ -3,6 +3,7 @@ import GetInTouchSection from '../components/GetInTouchSection/GetInTouchSection
 import HeaderSection from '../components/HeaderSection/HeaderSection'
 import HeroSection from '../components/HeroSection/HeroSection'
 import NavBar from '../components/NavBar/NavBar'
+import Skills from '../components/Skills/Skills'
 import SkillSection from '../components/SkillSection/SkillSection'
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
       <HeroSection />
       <SkillSection />
       <GetInTouchSection />
-
+      <Skills />
     </>
   )
 }
