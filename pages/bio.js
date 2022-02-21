@@ -110,7 +110,7 @@ const BioPage = () => {
       </Head>
       <div className="h-full sm:h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-serif md:flex transition-all ease-in-out duration-600">
         <div className="text-white bg-black text-center text-2xl sm:text-3xl md:text-2xl p-2 mb-3 md:mb-0 md:h-screen md:flex lg:w-1/3 flex-col transition-all ease-in-out duration-300 justify-center">
-          <img src="/img/profile-image-2.jpg" className="content-center  mx-auto transition-all ease-in-out duration-600 rounded-full ring-2 ring-indigo-300 mb-7 h-24 w-24 lg:h-32 lg:w-32" />
+          <img src="/img/Satish_Pic.jpeg" className="content-center  mx-auto transition-all ease-in-out duration-600 rounded-full ring-2 ring-indigo-300 mb-7 h-24 w-24 lg:h-32 lg:w-32" />
           SATISH KUMAR GUPTA
         </div>
         <div className="text-xs sm:text-sm md:m-auto transition-all ease-in-out duration-600">
