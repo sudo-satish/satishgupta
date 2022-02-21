@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 const Field = ({fieldName, value}) => 
   <div className="flex mx-2 p-1">
     <div className="w-1/2">{fieldName}</div>
