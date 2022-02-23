@@ -18,7 +18,7 @@ export default function HeroSection() {
         <div className="m-10 flex">
           <a href="https://www.linkedin.com/in/satish-gupta-6ba07abb/" target="_blank" className="border-2 p-2 px-4 border-blue-400 w-40 bg-blue-400 text-white text-xs tracking-wider hover:bg-white hover:text-blue-400 hover:shadow-md text-center">HIRE ME</a>
           {/* <button className="border-2 p-2 px-4 border-blue-400 w-40 bg-blue-400 text-white text-xs tracking-wider hover:bg-white hover:text-blue-400 hover:shadow-md">HIRE ME</button> */}
-          <a href="/docs/resume.pdf" className="group border-2 p-2 px-4 border-blue-400 w-40 text-blue-400 text-xs tracking-wider hover:bg-blue-400 hover:text-white hover:shadow-md">DOWNLOAD CV</a>
+          <a href="/docs/resume.pdf" className="group border-2 p-2 px-4 border-blue-400 w-40 text-blue-400 text-xs tracking-wider hover:bg-blue-400 hover:text-white hover:shadow-md text-center">DOWNLOAD CV</a>
         </div>
       </div>
     </section>
