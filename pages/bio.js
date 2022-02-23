@@ -1,4 +1,5 @@
 import Head from "next/head";
+import HeadMeta from "../components/HeadMeta/HeadMeta";
 
 const Field = ({fieldName, value}) => 
   <div className="flex mx-2 p-1">
@@ -97,19 +98,7 @@ const fields = [
 const BioPage = () => {
   return (
     <>
-      <Head>
-        <title>Satish Gupta</title>
-        <meta name="description" content="Satish Gupta, Highly skilled developer with experience of more than 4.5 years."></meta>
-        <meta property="og:title" content="Satish Gupta" />
-        <meta property="og:url" content="https://satishgupta.dev/" />
-        <meta property="og:description" content="Highly skilled developer with experience of more than 4.5 years." />
-        <meta property="og:image" content="https://satishgupta.dev/img/profile-image-reduced-quality.jpg" />
-        <meta property="og:type" content="profile" />
-        <meta property="og:profile:first_name" content="Satish" />
-        <meta property="og:profile:last_name" content="Gupta" />
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="icon" href="/favicon-16x16.png" />
-      </Head>
+      <HeadMeta />
       <div className="h-full sm:h-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-serif md:flex transition-all ease-in-out duration-600">
         <div className="text-white bg-black text-center text-2xl sm:text-3xl md:text-2xl p-2 mb-3 md:mb-0 md:h-screen md:flex lg:w-1/3 flex-col transition-all ease-in-out duration-300 justify-center">
           <img src="/img/Satish_Pic.jpeg" className="content-center  mx-auto transition-all ease-in-out duration-600 rounded-full ring-2 ring-indigo-300 mb-7 h-24 w-24 lg:h-32 lg:w-32" />

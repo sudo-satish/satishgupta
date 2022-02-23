@@ -1,0 +1,1 @@
+export const getExperience = () => new Date().getFullYear() - 2017

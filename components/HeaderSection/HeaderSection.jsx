@@ -11,7 +11,7 @@ export default function HeaderSection() {
           Hello World!
         </div>
         <div className="text-gray-300 text-3xl md:text-5xl m-4 mt-10 font-bold tracking-wide">
-          I am
+          I am a
         </div>
         <div className="font-mono text-blue-400 text-lg md:text-3xl">
           <Typewriter
