@@ -18,73 +18,92 @@ const SkillsIcon = () => (
   </svg>
 );
 
-export default function SkillSection() {
+const SkillSection = () => {
   return (
     <section className="bg-gray-600 py-12" data-scroll-index="2" id="skill-section">
       <div className="flex flex-col md:flex-row justify-center md:items-start">
-        <div className="flex flex-col md:w-1/3 md:min-h-full  justify-items-start items-center my-5">
-          <EducationIcon />
-          <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Education</h1>
-          <div className="m-4 border w-1/3 border-blue-400"></div>
-          <h2 className="text-lg font-extrabold tracking-wider text-gray-400"> Bachelor of Technology</h2>
-          <h3 className="text-lg font-bold tracking-wider text-gray-400"> 2017</h3>
-          <h3 className="md:text-lg font-bold tracking-wider text-gray-400 font-mono">Computer Science and Engineering</h3>
-          <h3 className="tracking-wider text-gray-400 font-mono"> From</h3>
-          <h1 className="tracking-wider text-gray-400 font-mono">Maharishi Dayanand University</h1>
-        </div>
-        <div className="flex flex-col md:w-1/3 md:min-h-full justify-center items-center my-5 mt-10 md:mt-5">
-          <BriefCaseIcon />
-          <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Experience</h1>
-          <div className="m-4 border w-1/3 border-blue-400"></div>
-          <h2 className="text-lg font-extrabold tracking-wider text-gray-400">Clik.ai</h2>
-          <h3 className="tracking-wider text-gray-400">2019 - current</h3>
-          <h2 className="text-lg font-extrabold tracking-wider text-gray-400 mt-5">Fluper Ltd.</h2>
-          <h3 className="tracking-wider text-gray-400">2018 - 2019</h3>
-          <h2 className="text-lg font-extrabold tracking-wider text-gray-400 mt-5">FlexiEle ERP Solutions</h2>
-          <h3 className="tracking-wider text-gray-400">2017 - 2018</h3>
-        </div>
-        <div className="flex flex-col md:w-1/3 md:min-h-full w-full justify-center items-center my-5 mt-10 md:mt-5">
-          <SkillsIcon />
-          <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Skills</h1>
-          <div className="m-4 border w-20 border-blue-400"></div>
-
-          <div className="w-2/3">
-            <div className="text-xs text-white mb-2 flex justify-between">
-              <span>ReactJs</span><span>80%</span>
-            </div>
-            <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
-              <div className="w-3/4 h-2 bg-blue-400 rounded-md"></div>
-            </div>
-          </div>
-
-          <div className="w-2/3">
-            <div className="text-xs text-white mb-2 flex justify-between">
-              <span>NodeJs</span><span>85%</span>
-            </div>
-            <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
-              <div className="w-4/5 h-2 bg-blue-400 rounded-md"></div>
-            </div>
-          </div>
-
-          <div className="w-2/3">
-            <div className="text-xs text-white mb-2 flex justify-between">
-              <span>ExpressJs</span><span>90%</span>
-            </div>
-            <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
-              <div className="w-11/12 h-2 bg-blue-400 rounded-md"></div>
-            </div>
-          </div>
-
-          <div className="w-2/3">
-            <div className="text-xs text-white mb-2 flex justify-between">
-              <span>Postgres DB</span><span>75%</span>
-            </div>
-            <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
-              <div className="w-2/3 h-2 bg-blue-400 rounded-md"></div>
-            </div>
+        <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Experience</h1>
+        <div className="flex">
+          <div></div>
+          <div className="flex w-full flex-col self-center">
+            <div>Clik.ai</div>
+            <div>Sr. Specialist Full Stack</div>
           </div>
         </div>
       </div>
     </section>
   )
-}
+};
+
+// function SkillSection() {
+//   return (
+//     <section className="bg-gray-600 py-12" data-scroll-index="2" id="skill-section">
+//       <div className="flex flex-col md:flex-row justify-center md:items-start">
+//         <div className="flex flex-col md:w-1/3 md:min-h-full  justify-items-start items-center my-5">
+//           <EducationIcon />
+//           <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Education</h1>
+//           <div className="m-4 border w-1/3 border-blue-400"></div>
+//           <h2 className="text-lg font-extrabold tracking-wider text-gray-400"> Bachelor of Technology</h2>
+//           <h3 className="text-lg font-bold tracking-wider text-gray-400"> 2017</h3>
+//           <h3 className="md:text-lg font-bold tracking-wider text-gray-400 font-mono">Computer Science and Engineering</h3>
+//           <h3 className="tracking-wider text-gray-400 font-mono"> From</h3>
+//           <h1 className="tracking-wider text-gray-400 font-mono">Maharishi Dayanand University</h1>
+//         </div>
+//         <div className="flex flex-col md:w-1/3 md:min-h-full justify-center items-center my-5 mt-10 md:mt-5">
+//           <BriefCaseIcon />
+//           <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Experience</h1>
+//           <div className="m-4 border w-1/3 border-blue-400"></div>
+//           <h2 className="text-lg font-extrabold tracking-wider text-gray-400">Clik.ai</h2>
+//           <h3 className="tracking-wider text-gray-400">2019 - current</h3>
+//           <h2 className="text-lg font-extrabold tracking-wider text-gray-400 mt-5">Fluper Ltd.</h2>
+//           <h3 className="tracking-wider text-gray-400">2018 - 2019</h3>
+//           <h2 className="text-lg font-extrabold tracking-wider text-gray-400 mt-5">FlexiEle ERP Solutions</h2>
+//           <h3 className="tracking-wider text-gray-400">2017 - 2018</h3>
+//         </div>
+//         <div className="flex flex-col md:w-1/3 md:min-h-full w-full justify-center items-center my-5 mt-10 md:mt-5">
+//           <SkillsIcon />
+//           <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Skills</h1>
+//           <div className="m-4 border w-20 border-blue-400"></div>
+
+//           <div className="w-2/3">
+//             <div className="text-xs text-white mb-2 flex justify-between">
+//               <span>ReactJs</span><span>80%</span>
+//             </div>
+//             <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
+//               <div className="w-3/4 h-2 bg-blue-400 rounded-md"></div>
+//             </div>
+//           </div>
+
+//           <div className="w-2/3">
+//             <div className="text-xs text-white mb-2 flex justify-between">
+//               <span>NodeJs</span><span>85%</span>
+//             </div>
+//             <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
+//               <div className="w-4/5 h-2 bg-blue-400 rounded-md"></div>
+//             </div>
+//           </div>
+
+//           <div className="w-2/3">
+//             <div className="text-xs text-white mb-2 flex justify-between">
+//               <span>ExpressJs</span><span>90%</span>
+//             </div>
+//             <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
+//               <div className="w-11/12 h-2 bg-blue-400 rounded-md"></div>
+//             </div>
+//           </div>
+
+//           <div className="w-2/3">
+//             <div className="text-xs text-white mb-2 flex justify-between">
+//               <span>Postgres DB</span><span>75%</span>
+//             </div>
+//             <div className="w-full h-2 bg-gray-400 rounded-full overflow-hidden mb-7">
+//               <div className="w-2/3 h-2 bg-blue-400 rounded-md"></div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   )
+// }
+
+export default SkillSection;

@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import {useState} from 'react';
 import HeadMeta from "../components/HeadMeta/HeadMeta";
 
 const Field = ({fieldName, value}) => 
@@ -7,6 +7,7 @@ const Field = ({fieldName, value}) =>
     <div className="w-1/2">: {value}</div>
   </div>
 
+const date = '10th Dec 1993';
 
 const fields = [
   // {
@@ -31,7 +32,7 @@ const fields = [
   },
   {
     fieldName: 'Date of birth',
-    value: '9th Dec 1995'
+    value: date
   },
   {
     fieldName: 'Place of birth',
@@ -96,6 +97,7 @@ const fields = [
 ];
 
 const BioPage = () => {
+  // const [fields, setFields] = useState(fields);
   return (
     <>
       <HeadMeta />
