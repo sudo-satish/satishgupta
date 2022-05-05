@@ -22,10 +22,11 @@ const SkillSection = () => {
   return (
     <section className="bg-gray-600 py-12" data-scroll-index="2" id="skill-section">
       <div className="flex flex-col md:flex-row justify-center md:items-start">
-        <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Experience</h1>
-        <div className="flex">
-          <div></div>
-          <div className="flex w-full flex-col self-center">
+        <div className="flex justify-center items-center flex-col md:flex-row">
+          <div className="md:mr-2">
+            <h1 className="text-2xl font-bold tracking-wider blue-600 text-gray-300">Experience</h1>
+          </div>
+          <div className="flex w-full flex-col self-center justify-center items-center text-blue-400 md:ml-2" >
             <div>Clik.ai</div>
             <div>Sr. Specialist Full Stack</div>
           </div>

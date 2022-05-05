@@ -1,4 +1,6 @@
 // import {useState} from 'react';
+import { useRouter } from 'next/router'
+import { useEffect, useState } from 'react';
 import HeadMeta from "../components/HeadMeta/HeadMeta";
 
 const Field = ({fieldName, value}) => 
@@ -7,13 +9,7 @@ const Field = ({fieldName, value}) =>
     <div className="w-1/2">: {value}</div>
   </div>
 
-const date = '10th Dec 1993';
-
-const fields = [
-  // {
-  //   fieldName: 'Name',
-  //   value: 'Satish Kumar Gupta',
-  // },
+const getFields = (date) => [
   {
     fieldName: 'Father\'s Name',
     value: 'Girijesh Gupta'
@@ -97,7 +93,23 @@ const fields = [
 ];
 
 const BioPage = () => {
-  // const [fields, setFields] = useState(fields);
+  const router = useRouter();
+  const [fields, setFields] = useState([]);
+  const {q} = router.query;
+  console.log({q});
+  useEffect(() => {
+    if (q) {
+      setFields(getFields(atob(q)));
+    } else {
+      setFields(getFields('10th Dec 1993'));
+    }
+  }, [q]);
+
+  console.log({
+    v1: 'OXRoIERlYyAxOTk1',
+    v2: 'MTB0aCBEZWMgMTk5Mw=='
+  })
+
   return (
     <>
       <HeadMeta />
@@ -111,6 +123,7 @@ const BioPage = () => {
             fields.map(({fieldName, value}, index) => <Field {...{fieldName, value, key: index}} />)
           }
         </div>
+        
       </div>
     </>
   );
